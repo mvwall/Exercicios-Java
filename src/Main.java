@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //para rodar o exercicio chame o metodo conforme linha abaixo:
-        exercicio20();
+        exercicio17();
 
     }
 
@@ -270,6 +270,12 @@ public class Main {
      * Faça um programa que leia um número real e imprima o número elevado ao quadrado e sua raiz quadrada.
      */
     public static void exercicio17(){
+
+        Scanner console = new Scanner(System.in);
+        System.out.println("Digite um número real: ");
+        double num = console.nextDouble();
+
+        System.out.println("O número digitado elevado ao quadrado é:\n"+Math. pow(num, 2) + "\nE a raiz quadrada do número digitado é: "+ Math.sqrt(num));
 
     }
 
